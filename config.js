@@ -28,7 +28,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ":",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is TRILLS 𝐌𝐃",
+  caption: process.env.CAPTION || "You've been deemed worthy of seeing Trills' MD now grovel in his sight",
   author: process.env.PACK_AUTHER || "TRILLS",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "TRILLS-𝐌𝐃",
