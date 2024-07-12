@@ -2,14 +2,14 @@
   "name": "venocyber-md",
   "description": "Simple WhatsApp Bot",
   "logo": "https://github.com/kingjux/Venocyber-md/blob/main/lib/assets/logo.png?raw=true",
-  "keywords": ["VENOCYBER-MD", "VENOCYBER", "VENOCYBER MD BOT","VENOCYBER MD","venocyber","venocybertech"],
+  "keywords": ["TRILLS-MD", "TRILLS", "TRILLS MD BOT","TRILLS MD","trills","trillstech"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑-𝐓𝐄𝐂𝐇",
+      "value": "TRILLS-TECH",
       "required": true
     },
 
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃 𝐰𝐚𝐛𝐨𝐭𝐬"
+      "value": "TRILLS MD WABOTS"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Africa/Dar es salaam"
+      "value": "Africa/Lagos"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -62,7 +62,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required": false,
-      "value": "unavailable"
+      "value": "available"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -90,7 +90,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "255625774543"
+      "value": "2347025369036"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,12 +102,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "VENOCYBER",
+      "value": "TRILLS",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "TECH",
+      "value": "TRILLS",
       "required": false
     }
   },
@@ -116,4 +116,4 @@
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ]
-}
+}}
